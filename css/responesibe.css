@@ -1,0 +1,339 @@
+@media (max-width:1400px) {
+    .mid-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width:1200px) {
+    .p-heading h4 {
+        font-size: 20px;
+    }
+    .p-heading h1 {
+        margin: 20px 0px;
+        font-size: 40px;
+        
+    }
+    .p-heading h1 span {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .p-heading h5 {
+        font-size: 19px;
+       
+    }
+    .p-heading p {
+        font-size: 18px;
+    }
+    .p-content ul li span {
+        font-size: 22px;
+        width: 48px;
+    }
+    .p-content ul li {
+        font-size: 16px;
+        margin: 16px 0px;
+    }
+}
+
+
+@media (max-width:1050px) {
+    .logo span {
+        font-size: 18px;
+    }
+    .sub-menu ul li a {
+        padding: 0px 10px;
+        font-size: 14px;
+    }
+    .top-button {
+       
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .content-right h3 {
+        font-size: 35px;
+       
+    }
+    .header {
+        position: relative;
+    }
+    .banner {
+        margin-top: 0;
+        padding:65px 0px;
+       
+    }
+    .blog-post-item img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .blog-post-item {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+/* this css is main style */
+.sub-menu span {
+    display: none;
+}
+.sub-menu input{
+    display:none;
+}
+
+
+@media (max-width:992px) {
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .logo img {
+        float: inherit;
+    }
+    .logo span {
+        position: relative;
+        top: -18px;
+    }
+    
+    .button {
+        width: 200px;
+        position: absolute;
+        top: 72px;
+        right: 14px;
+    }
+    .menu {
+        width: 100%;
+    }
+    .sub-menu span {
+        font-size: 35px;
+        color: #6278df;
+        cursor: pointer;
+        display: block;
+    }
+    .video-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .content-right {
+        width: 100%;
+    }
+    .service-tittle h1 {
+        font-size: 40px;
+    }
+    .service-box {
+        width: 48%;
+    }
+    .service-box:nth-child(3n+3){
+        margin-right: 20px;
+    }
+    .service-box:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .pricing-table-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .member {
+        width: 47%;
+        margin-right: 1.5%;
+        margin-bottom: 25px;
+        margin-left: 1.5%;
+    }
+
+
+    /* respnesive mobile menu */
+
+    .sub-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        
+    }
+    .sub-menu .mobile-menu-check:checked ~ ul {
+        opacity: 1;
+        visibility: visible;
+        height: 100%; 
+        transition: .5s;
+    }
+    .sub-menu .mobile-menu-check:checked ~ .mobile-menu-icon{
+        opacity: 0;
+        visibility: hidden;
+
+    }
+    .mobile-menu-cross{
+        position: absolute;
+        top: 77px;
+        left: 25px;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+
+    }
+    .sub-menu .mobile-menu-check:checked ~ .mobile-menu-cross{
+        opacity: 1;
+        visibility: visible;
+    }
+    .sub-menu ul li {
+        display: block;
+        background-color: #fff;
+        
+    }
+    .menu ul li ul {
+       position: absolute;
+        left: 90px;
+        top: -121px;
+    
+       z-index: 999;
+       
+    }
+
+    .menu ul li ul li{
+        background-color: #fafafa;
+    }
+
+    .menu ul li ul li a {
+        line-height: 35px;
+    }
+    .menu ul li a:hover{
+        background-color:#fff ;
+    }
+
+
+    input.mobile-menu-check {
+        height: 38px;
+        width: 38px;
+        opacity: 0;
+        cursor: pointer;
+        display: block;
+    }
+    .sub-menu .mobile-menu-icon {
+       
+        position: absolute;
+        top: 77px;
+        left: 23px;
+        pointer-events: none;
+    }
+
+}
+
+@media (max-width:768px) {
+    .sub-banner h2 {
+        font-size: 40px;
+    }
+    .defult-btn {
+        padding: 10px 25px;
+        font-size: 17px;
+    }
+    .service-tittle h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .service-tittle p {
+        font-size: 18px;
+    }
+    .service-box {
+        width: 100%;
+    }
+    .service-box:nth-child(3n+3){
+        margin-right: 20px;
+    }
+    .service-box:nth-child(2n+2){
+        margin-right: 20px;
+    }
+    .service-box:nth-child(1n+1){
+        margin-right: 20px;
+    }
+    .section-tittle h2 {
+        font-size: 40px;
+        margin-bottom: 10px
+    }
+    .section-tittle p {
+        font-size: 17px;
+    }
+    .team-section .section-tittle h2 {
+        font-size: 26px;
+    }
+    .newslatter-section .newslatter-tittle p {
+        margin-bottom: 10px;
+       
+    }
+    .newslatter-section .newslatter-tittle h2 {
+        font-size: 32px;
+    }
+    .default-input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .b-heading h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .b-content p {
+        font-size: 17px;
+    }
+    .testmonial-section .testmonial-tittle h2 {
+        font-size: 30px;
+    }
+    .i-item {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .t-content p { 
+        font-size: 17px;
+    }
+    .content-left-map {
+        width: 100%;
+    }
+    .content-right-form {
+        width: 100%;
+        
+    }
+        
+
+   
+}
+
+@media (max-width:620px) {
+    .blog-post-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:568px) {
+    .sub-banner h3 {
+        font-size: 18px;
+    }
+    .sub-banner h2 {
+        font-size: 27px;
+        margin: 20px 0px;
+    }
+    .defult-btn {
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .member {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .b-heading  {
+        width: 100%;
+    }
+    .b-content {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:400px) {
+    .submit-btn {
+       
+        margin-left: 0px;
+        
+        width: 100%;
+    }
+}
